@@ -1,0 +1,6 @@
+streamlit
+groq
+plotly
+fpdf2
+pandas
+requests
