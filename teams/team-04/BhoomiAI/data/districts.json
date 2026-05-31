@@ -1,0 +1,158 @@
+{
+  "districts": [
+"Bagalkot",
+"Ballari",
+"Belagavi",
+"Bengaluru Rural",
+"Bengaluru Urban",
+"Bidar",
+"Chamarajanagar",
+"Chikkaballapur",
+"Chikkamagaluru",
+"Chitradurga",
+"Dakshina Kannada",
+"Davangere",
+"Dharwad",
+"Gadag",
+"Hassan",
+"Haveri",
+"Kalaburagi",
+"Kodagu",
+"Kolar",
+"Koppal",
+"Mandya",
+"Mysuru",
+"Raichur",
+"Ramanagara",
+"Shivamogga",
+"Tumakuru",
+"Udupi",
+"Uttara Kannada",
+"Vijayapura",
+"Vijayanagara",
+"Yadgir"
+]
+,
+  "taluks": {
+"Bagalkot": ["Badami", "Bagalkot", "Bilagi", "Hungund", "Ilkal", "Jamkhandi", "Mudhol", "Rabkavi Banhatti"],
+
+"Ballari": ["Ballari", "Hadagali", "Hagaribommanahalli", "Hospet", "Kampli", "Kudligi", "Sandur", "Siruguppa"],
+
+"Belagavi": ["Athani", "Bailhongal", "Belagavi", "Chikodi", "Gokak", "Hukkeri", "Khanapur", "Raibag", "Ramdurg", "Saundatti"],
+
+"Bengaluru Rural": ["Devanahalli", "Doddaballapur", "Hosakote", "Nelamangala"],
+
+"Bengaluru Urban": ["Anekal", "Bengaluru East", "Bengaluru North", "Bengaluru South", "Krishnarajapura", "Yelahanka"],
+
+"Bidar": ["Aurad", "Basavakalyan", "Bhalki", "Bidar", "Humnabad"],
+
+"Chamarajanagar": ["Chamarajanagar", "Gundlupet", "Hanur", "Kollegal", "Yelandur"],
+
+"Chikkaballapur": ["Bagepalli", "Chikkaballapur", "Chintamani", "Gauribidanur", "Gudibanda", "Sidlaghatta"],
+
+"Chikkamagaluru": ["Chikkamagaluru", "Kadur", "Koppa", "Mudigere", "Narasimharajapura", "Sringeri", "Tarikere"],
+
+"Chitradurga": ["Challakere", "Chitradurga", "Hiriyur", "Holalkere", "Hosadurga", "Molakalmuru"],
+
+"Dakshina Kannada": ["Bantwal", "Belthangady", "Mangaluru", "Puttur", "Sullia"],
+
+"Davangere": ["Channagiri", "Davangere", "Harihar", "Honnali", "Jagalur", "Nyamathi"],
+
+"Dharwad": ["Dharwad", "Hubli", "Kalghatgi", "Kundgol", "Navalgund"],
+
+"Gadag": ["Gadag", "Gajendragad", "Mundargi", "Nargund", "Ron", "Shirahatti"],
+
+"Hassan": ["Alur", "Arkalgud", "Arsikere", "Belur", "Channarayapatna", "Hassan", "Holenarasipura", "Sakleshpur"],
+
+"Haveri": ["Byadgi", "Hangal", "Haveri", "Hirekerur", "Ranebennur", "Savanur", "Shiggaon"],
+
+"Kalaburagi": ["Afzalpur", "Aland", "Chincholi", "Chitapur", "Jewargi", "Kalaburagi", "Sedam"],
+
+"Kodagu": ["Madikeri", "Somwarpet", "Virajpet"],
+
+"Kolar": ["Bangarapet", "Kolar", "Malur", "Mulbagal", "Srinivaspur"],
+
+"Koppal": ["Gangavathi", "Koppal", "Kushtagi", "Yelburga"],
+
+"Mandya": ["KR Pet", "Maddur", "Malavalli", "Mandya", "Nagamangala", "Pandavapura", "Srirangapatna"],
+
+"Mysuru": ["H D Kote", "Hunsur", "KR Nagar", "Mysuru", "Nanjangud", "Periyapatna", "T Narasipur"],
+
+"Raichur": ["Devadurga", "Lingasugur", "Manvi", "Raichur", "Sindhanur"],
+
+"Ramanagara": ["Channapatna", "Kanakapura", "Magadi", "Ramanagara"],
+
+"Shivamogga": ["Bhadravati", "Hosanagara", "Sagar", "Shikaripura", "Shivamogga", "Soraba", "Tirthahalli"],
+
+"Tumakuru": ["Chikkanayakanahalli", "Gubbi", "Koratagere", "Kunigal", "Madhugiri", "Pavagada", "Sira", "Tiptur", "Tumakuru"],
+
+"Udupi": ["Brahmavara", "Byndoor", "Karkala", "Kundapura", "Udupi"],
+
+"Uttara Kannada": ["Ankola", "Bhatkal", "Dandeli", "Haliyal", "Honnavar", "Joida", "Karwar", "Kumta", "Mundgod", "Siddapur", "Sirsi", "Yellapur"],
+
+"Vijayapura": ["Basavana Bagewadi", "Indi", "Muddebihal", "Sindagi", "Vijayapura"],
+
+"Vijayanagara": ["Harapanahalli", "Hospete", "Hoovina Hadagali", "Kotturu"],
+
+"Yadgir": ["Gurmitkal", "Shahapur", "Shorapur", "Yadgir"]
+}
+,
+  "villages": {
+"Anekal": ["Attibele", "Bommasandra", "Chandapura", "Jigani", "Sarjapur"],
+"Bengaluru East": ["KR Puram", "Mahadevapura", "Marathahalli", "Whitefield", "Varthur"],
+"Bengaluru North": ["Yelahanka", "Hesaraghatta", "Jakkur", "Vidyaranyapura", "Hebbal"],
+"Bengaluru South": ["Banashankari", "Begur", "Jayanagar", "Kanakapura Road", "Uttarahalli"],
+"Krishnarajapura": ["KR Puram", "Battarahalli", "Hoodi", "Mahadevapura", "Ramamurthy Nagar"],
+"Yelahanka": ["Allalasandra", "Bagalur", "Kogilu", "Thanisandra", "Yelahanka New Town"],
+
+"Mysuru": ["Hebbal", "Kuvempunagar", "Nazarbad", "Vijayanagar", "Yadavagiri"],
+"Hunsur": ["Antharasante", "Bilikere", "Hanagodu", "Hunsur Town", "Saragur"],
+"H D Kote": ["Beechanahalli", "Hampapura", "Heggadadevana Kote", "N Begur", "Sagare"],
+"Periyapatna": ["Bylakuppe", "Koppa", "Periyapatna Town", "Ramanathapura", "Thirumakudalu"],
+"T Narasipur": ["Bannur", "Muguru", "Somanathapura", "Talakadu", "T Narasipur"],
+
+"Belagavi": ["Belagavi City", "Hindalga", "Kakati", "Sambra", "Udyambag"],
+"Chikodi": ["Examba", "Kabbur", "Koganoli", "Mugalkhod", "Yaksamba"],
+"Gokak": ["Arabhavi", "Ghataprabha", "Gokak Falls", "Konnur", "Mudalagi"],
+"Hukkeri": ["Hukkeri Town", "Sankeshwar", "Yamakanmardi", "Bastawad", "Nidasoshi"],
+"Raibag": ["Alakhanur", "Bavachi", "Chinchali", "Kudachi", "Raibag Town"],
+
+"Dharwad": ["Amargol", "Dharwad City", "Kelgeri", "Sattur", "Tarihal"],
+"Hubli": ["Deshpande Nagar", "Gokul Road", "Hubli City", "Keshwapur", "Vidyanagar"],
+"Kalghatgi": ["Bammigatti", "Begur", "Kalghatgi Town", "Mishrikoti", "Tabakadhonnihalli"],
+"Navalgund": ["Annigeri", "Hebsur", "Morab", "Navalgund Town", "Yamanur"],
+
+"Ballari": ["Ballari City", "Cowl Bazaar", "Kampli", "Kudligi", "Sirigeri"],
+"Hospet": ["Hosapete City", "Kamalapura", "Mariyammanahalli", "Toranagallu", "Venkatapura"],
+"Sandur": ["Deogiri", "Sandur Town", "Swamihalli", "Taranagar", "Yeswanthnagar"],
+"Siruguppa": ["Bagewadi", "Karur", "Siruguppa Town", "Tekkalakote", "Upparahalli"],
+
+"Hassan": ["Gorur", "Hassan City", "Halebidu Road", "Shantiniketan", "Vidyanagar"],
+"Alur": ["Alur Town", "Byrapura", "Kanathur", "Karagunda", "Palya"],
+"Arkalgud": ["Arkalgud Town", "Doddamagge", "Keralapura", "Ramanathapura", "Sante Marur"],
+"Arsikere": ["Arsikere Town", "Banavara", "Gandasi", "Jajur", "Lingadahalli"],
+"Belur": ["Arehalli", "Bikkodu", "Belur Town", "Halebeedu", "Yagachi"],
+
+"Shivamogga": ["Bhadravati Road", "Kuvempu Nagar", "Megaravalli", "Shivamogga City", "Vinobanagar"],
+"Bhadravati": ["Bhadravati Town", "Donabaghatta", "Sunnadahalli", "Visvesvaraya Iron Area", "Yarehalli"],
+"Sagar": ["Anandapura", "Avinahalli", "Sagar Town", "Talaguppa", "Varadahalli"],
+"Soraba": ["Anavatti", "Chandragutti", "Soraba Town", "Ulavi", "Yennekoppa"],
+"Tirthahalli": ["Agumbe", "Konandur", "Mandagadde", "Tirthahalli Town", "Yeduru"],
+
+"Tumakuru": ["Gubbi Gate", "Kyathsandra", "Sira Gate", "Tiptur Road", "Tumakuru City"],
+"Tiptur": ["CN Halli", "Honnavalli", "Nonavinakere", "Tiptur Town", "KB Cross"],
+"Chikkanayakanahalli": ["Baragur", "Handanakere", "Hosahalli", "Mathighatta", "Turuvekere"],
+"Madhugiri": ["Kodigenahalli", "Madhugiri Town", "Midigeshi", "Pavagada Road", "Rantavalalu"],
+
+"Davangere": ["Davangere City", "Harihara", "Jagalur", "Nyamathi", "Shamanur"],
+"Harihar": ["Harihar Town", "Malebennur", "Rajanahalli", "Yallapura", "Belludi"],
+"Jagalur": ["Basavanakote", "Bilichodu", "Jagalur Town", "Mustur", "Sokke"],
+"Channagiri": ["Channagiri Town", "Devarahalli", "Hiremallanahole", "Santhebennur", "Sulekere"],
+
+"Kalaburagi": ["Aland Road", "Kalaburagi City", "Khuba Plot", "Sedam Road", "Shahabad"],
+"Afzalpur": ["Afzalpur Town", "Gobbur", "Karajagi", "Mannur", "Mashal"],
+"Aland": ["Aland Town", "Kadaganchi", "Khajuri", "Madan Hipparga", "Nimbarga"],
+"Chincholi": ["Chincholi Town", "Kodli", "Nelogi", "Sulepeth", "Taj Sultanpur"],
+"Sedam": ["Andola", "Kodla", "Malkhed", "Sedam Town", "Telkur"]
+}
+}

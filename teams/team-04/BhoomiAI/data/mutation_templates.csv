@@ -1,0 +1,6 @@
+mutation_type,application_subject,application_reason
+Sale,Request for Mutation after Sale,Ownership transferred through registered sale deed
+Inheritance,Request for Mutation due to Inheritance,Ownership transferred through legal inheritance
+Gift,Request for Mutation after Gift Transfer,Ownership transferred through registered gift deed
+Partition,Request for Mutation after Family Partition,Property divided among legal heirs
+Court Order,Request for Mutation based on Court Order,Ownership change ordered by court

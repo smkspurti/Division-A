@@ -1,0 +1,11 @@
+mutation_type,required_documents,processing_days,authority
+Sale,Sale Deed;RTC Copy;Aadhaar Card;Latest Tax Receipt,30,Tahsildar
+Inheritance,Death Certificate;Legal Heir Certificate;RTC Copy;Aadhaar Card,45,Tahsildar
+Gift,Gift Deed;RTC Copy;Aadhaar Card,30,Tahsildar
+Partition,Partition Deed;RTC Copy;Aadhaar Card,30,Tahsildar
+Court Order,Certified Court Order;RTC Copy;Aadhaar Card,60,Tahsildar
+Khatha Change,Khatha Certificate;RTC Copy;Aadhaar Card,30,Tahsildar
+Land Conversion,Conversion Order;RTC Copy;Tax Receipt,90,Deputy Commissioner
+Government Order,Government Order Copy;RTC Copy,60,Tahsildar
+Land Acquisition,Acquisition Notification;RTC Copy,90,Revenue Department
+Pledge Release,Bank NOC;RTC Copy;Aadhaar Card,30,Tahsildar
