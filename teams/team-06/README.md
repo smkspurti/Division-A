@@ -2,6 +2,9 @@
 
 A serverless, fully free AI application that transforms news headlines into beautiful 4-panel comic strips. Built for a 12-hour hackathon, this app uses Hugging Face's Free Serverless Inference API to combine Large Language Models and text-to-image diffusion into a seamless Streamlit experience.
 
+## 📸 Gallery
+*(Drag and drop your best generated comic image here on GitHub to replace this text!)*
+
 ## ✨ Features
 - **Zero Paid APIs**: Runs 100% on Hugging Face's free tier.
 - **Llama 3 Scriptwriting**: Uses `meta-llama/Meta-Llama-3-8B-Instruct` to dynamically generate a 4-panel JSON comic script from any headline.
@@ -47,6 +50,16 @@ Then open `http://localhost:8501` in your browser!
 2. **Prompting**: The app sends a highly constrained prompt to Llama 3 to output a JSON array of 4 panels (dialogue + visual prompts).
 3. **Generation**: The app calls SDXL to generate the raw images, using a strict negative prompt to maintain professional illustration quality.
 4. **Compositing**: The layout engine resizes the images, draws speech bubbles based on text length, overlays the dialogue, and stitches them into a 2x2 grid.
+
+## 🏗️ Architecture Diagram
+```mermaid
+graph TD;
+    A[User Inputs Headline] --> B[Llama-3-8B-Instruct];
+    B -->|Generates JSON Script| C[Character Consistency Lock];
+    C -->|Panel Prompts| D[Stable Diffusion XL];
+    D -->|4 Raw Images| E[Pillow / PIL Engine];
+    E -->|Stitches & Draws Bubbles| F[Final Comic Strip];
+```
 
 ## 🛑 Common Troubleshooting for Judges
 
