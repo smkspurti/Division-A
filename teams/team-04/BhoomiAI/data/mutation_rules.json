@@ -1,0 +1,52 @@
+{
+  "mutation_types": {
+    "Sale": {
+      "required_documents": [
+        "Sale Deed (Registered)",
+        "RTC (Record of Rights, Tenancy and Crops)",
+        "Property Tax Receipt",
+        "Aadhaar Card of Buyer",
+        "Aadhaar Card of Seller",
+        "Encumbrance Certificate",
+        "NOC from Gram Panchayat"
+      ],
+      "description": "Mutation due to sale/purchase of land",
+      "authority": "Tahsildar Office",
+      "processing_days": 30
+    },
+    "Inheritance": {
+      "required_documents": [
+        "Death Certificate of Previous Owner",
+        "Legal Heir Certificate",
+        "Family Tree Document",
+        "RTC (Record of Rights, Tenancy and Crops)",
+        "Aadhaar Card of Legal Heirs",
+        "Affidavit from Legal Heirs",
+        "NOC from other Legal Heirs"
+      ],
+      "description": "Mutation due to inheritance after death of owner",
+      "authority": "Tahsildar Office",
+      "processing_days": 45
+    },
+    "Gift": {
+      "required_documents": [
+        "Gift Deed (Registered)",
+        "RTC (Record of Rights, Tenancy and Crops)",
+        "Aadhaar Card of Donor",
+        "Aadhaar Card of Recipient",
+        "Relationship Proof Document",
+        "Property Tax Receipt",
+        "Encumbrance Certificate"
+      ],
+      "description": "Mutation due to gifting of land to family member",
+      "authority": "Tahsildar Office",
+      "processing_days": 30
+    }
+  },
+  "common_rules": {
+    "aadhaar_length": 12,
+    "mobile_length": 10,
+    "min_land_area": 0.01,
+    "max_land_area": 9999
+  }
+}

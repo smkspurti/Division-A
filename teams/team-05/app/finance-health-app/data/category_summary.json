@@ -1,0 +1,27 @@
+{
+  "shopping": {
+    "pct_of_spend": 64.41,
+    "txn_count": 2260,
+    "mean_txn_amount": 144204.95
+  },
+  "transport": {
+    "pct_of_spend": 24.24,
+    "txn_count": 1239,
+    "mean_txn_amount": 99006.65
+  },
+  "entertainment": {
+    "pct_of_spend": 9.13,
+    "txn_count": 2153,
+    "mean_txn_amount": 21452.18
+  },
+  "housing": {
+    "pct_of_spend": 1.79,
+    "txn_count": 696,
+    "mean_txn_amount": 13030.03
+  },
+  "healthcare": {
+    "pct_of_spend": 0.43,
+    "txn_count": 10,
+    "mean_txn_amount": 217111.14
+  }
+}

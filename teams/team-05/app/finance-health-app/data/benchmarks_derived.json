@@ -1,0 +1,99 @@
+{
+  "hces_urban_base_pct_of_mpce": {
+    "food": 40.0,
+    "transport": 8.5,
+    "housing": 12.7,
+    "healthcare": 5.5,
+    "education": 4.5,
+    "entertainment": 4.8,
+    "shopping": 6.5,
+    "other": 17.5
+  },
+  "spending_pct_of_income": {
+    "tier1": {
+      "food": 27.2,
+      "transport": 7.2,
+      "housing": 15.9,
+      "healthcare": 4.7,
+      "education": 4.7,
+      "entertainment": 5.4,
+      "shopping": 6.8,
+      "other": 13.2
+    },
+    "tier2": {
+      "food": 31.4,
+      "transport": 7.2,
+      "housing": 11.6,
+      "healthcare": 4.7,
+      "education": 4.2,
+      "entertainment": 4.1,
+      "shopping": 5.5,
+      "other": 16.1
+    },
+    "tier3": {
+      "food": 38.2,
+      "transport": 6.4,
+      "housing": 7.4,
+      "healthcare": 5.1,
+      "education": 4.2,
+      "entertainment": 2.8,
+      "shopping": 4.7,
+      "other": 16.1
+    }
+  },
+  "scoring_thresholds": {
+    "savings_rate": {
+      "excellent": 0.2,
+      "good": 0.15,
+      "okay": 0.1,
+      "low": 0.05,
+      "note": "RBI net household financial savings: ~10.9% of GNDI (FY24, RBI Annual Report 2023-24). Our scoring targets above this because this app targets salaried urban workers who should save more than the national average (which includes low-income households)."
+    },
+    "debt_to_income": {
+      "excellent": 0.2,
+      "good": 0.3,
+      "okay": 0.4,
+      "high": 0.5,
+      "note": "RBI/IBA FOIR (Fixed Obligation to Income Ratio) ceiling for most lenders: 40-50%. Our 'excellent' threshold of 20% is the recommended target for financial flexibility."
+    },
+    "emergency_fund": {
+      "excellent": 6,
+      "good": 4,
+      "okay": 2,
+      "low": 1,
+      "note": "Standard guidance from SEBI Investor Awareness Program and RBI consumer education. 6 months is the recommended buffer for urban salaried workers."
+    },
+    "discretionary": {
+      "excellent": 0.1,
+      "good": 0.15,
+      "okay": 0.2,
+      "high": 0.3,
+      "note": "Entertainment + shopping combined should stay below 10-15% of income. Derived from HCES 2023-24: entertainment ~4.8% + shopping ~6.5% = ~11.3% of MPCE = ~9.6% of income at national average. Our 'excellent' threshold matches this."
+    }
+  },
+  "india_context": {
+    "urban_avg_mpce_monthly_inr": 6996,
+    "urban_food_share_pct_of_mpce": 40.0,
+    "urban_nonfood_share_pct_of_mpce": 60.0,
+    "urban_transport_pct_of_mpce": 8.5,
+    "urban_rent_pct_of_mpce": 6.6,
+    "net_household_financial_savings_pct": 10.9,
+    "household_debt_pct_gdp": 36.4,
+    "sources": {
+      "HCES_2023-24": "https://mospi.gov.in \u2014 January 2025 release",
+      "RBI_Annual_Report_FY24": "https://rbi.org.in/Scripts/AnnualReportPublications.aspx",
+      "RBI_FSR_June_2024": "https://rbi.org.in/Scripts/PublicationReportDetails.aspx"
+    }
+  },
+  "provenance": {
+    "transaction_dataset": {
+      "source": "Bank Transaction Data, Kaggle (apoorvwatsky/bank-transaction-data)",
+      "rows": 116201,
+      "accounts": 10,
+      "date_range": "2015-01-01 to 2019-03-05",
+      "usage": "Used to build the transaction keyword categorizer. Merchant names extracted (IRCTC, BookMyShow, BSES, etc.) trained the category rules.",
+      "not_used_for": "Spending benchmark amounts. Dataset contains corporate/bulk payments (mean transaction \u20b999k\u2013\u20b92.1L), not individual household spending."
+    },
+    "benchmark_source": "HCES 2023-24 (MoSPI, January 2025) for urban spending shares. RBI Annual Report 2023-24 and RBI FSR June 2024 for savings/debt benchmarks."
+  }
+}

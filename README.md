@@ -1,6 +1,6 @@
 # Division A - Hackathon Submission Repository
 
-Welcome to the Division A repository. This is where all Division A teams submit their projects. Read this entire page before you start.
+Welcome to the Division A repository. This is where all Division D teams submit their projects. Read this entire page before you start.
 
 ---
 
@@ -44,7 +44,7 @@ Work inside **your fork** (the copy under your own username), not this original 
 3. Drag in your project files.
 
 > [!WARNING]
-> **Make sure your files land inside your team folder and nowhere else. Before committing, check that the path at the top of the page reads something like `your-username/division-a/teams/team-05`. If your files are not inside your team folder, your submission may not be counted.**
+> **Make sure your files land inside your team folder and nowhere else. Before committing, check that the path at the top of the page reads something like `your-username/division-d/teams/team-05`. If your files are not inside your team folder, your submission may not be counted.**
 
 4. Scroll down to the **Commit changes** section.
 
@@ -64,7 +64,7 @@ Do this only once, after your first upload.
 1. Go back to the main page of your fork.
 2. GitHub usually shows a banner near the top with a **Contribute** option, or a message that your branch is ahead. Click **Contribute**, then **Open pull request**.
 3. If you do not see that banner, click the **Pull requests** tab, then **New pull request**.
-4. Confirm the pull request is set to merge **into the original Division A repository, branch `main`**.
+4. Confirm the pull request is set to merge **into the original Division D repository, branch `main`**.
 5. Give it a clear title, for example `Team 05 submission`.
 6. Click **Create pull request**.
 
@@ -102,8 +102,8 @@ Replace `your-username` with your GitHub username and `team-05` with your team f
 
 ```bash
 # 1. Clone YOUR fork (not the original repo)
-git clone https://github.com/your-username/division-a.git
-cd division-a
+git clone https://github.com/your-username/division-d.git
+cd division-d
 
 # 2. Put your project files inside your team folder only
 #    e.g. teams/team-05/
@@ -132,8 +132,8 @@ In a Colab code cell, prefix each command with `!`, and put your token directly 
 
 ```python
 # Clone your fork using your token
-!git clone https://YOUR_TOKEN@github.com/your-username/division-a.git
-%cd division-a
+!git clone https://YOUR_TOKEN@github.com/your-username/division-d.git
+%cd division-d
 
 # After adding files into teams/team-05/
 !git config --global user.email "you@example.com"
@@ -159,7 +159,7 @@ If the organizers update this repository and you want those changes in your fork
 **On the command line:**
 
 ```bash
-git remote add upstream https://github.com/GenAI-Hackathon2026/division-a.git
+git remote add upstream https://github.com/GenAI-Hackathon2026/division-d.git
 git pull upstream main
 git push origin main
 ```

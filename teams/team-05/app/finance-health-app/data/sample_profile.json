@@ -1,0 +1,41 @@
+{
+  "user_name": "Yashas",
+  "age": 28,
+  "dependents": 0,
+  "city_tier": "tier1",
+  "income": {
+    "monthly_salary": 85000,
+    "other_income": 0
+  },
+  "expenses": {
+    "housing": 22000,
+    "food": 13000,
+    "transport": 5500,
+    "healthcare": 1500,
+    "education": 0,
+    "entertainment": 4500,
+    "shopping": 7000,
+    "other": 2500
+  },
+  "debts": [
+    {
+      "name": "Education Loan",
+      "outstanding": 280000,
+      "monthly_emi": 8500,
+      "interest_rate": 9.5
+    }
+  ],
+  "savings": {
+    "emergency_fund": 65000,
+    "fixed_deposits": 0
+  },
+  "investments": {
+    "equity_mutual_funds": 120000,
+    "stocks": 25000,
+    "debt_funds": 0,
+    "ppf_epf_nps": 95000,
+    "real_estate": 0,
+    "gold": 15000,
+    "other": 0
+  }
+}
