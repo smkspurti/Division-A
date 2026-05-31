@@ -3,7 +3,20 @@
 A serverless, fully free AI application that transforms news headlines into beautiful 4-panel comic strips. Built for a 12-hour hackathon, this app uses Hugging Face's Free Serverless Inference API to combine Large Language Models and text-to-image diffusion into a seamless Streamlit experience.
 
 ## 📸 Gallery
-*(Drag and drop your best generated comic image here on GitHub to replace this text!)*
+
+Category: Sports
+Headline (Input): RCB wins IPL trophy for the first time in 18 years!
+<img width="1028" height="1028" alt="comic_strip (5)" src="https://github.com/user-attachments/assets/7c9715bb-ed42-4bf2-9cb6-d3c9274c998f" />
+
+Category: Science
+Headline (Input): Scientists discover new exoplanet in habitable zone!
+<img width="1028" height="1028" alt="comic_strip (7)" src="https://github.com/user-attachments/assets/f35933fa-6bad-4400-bd9e-1f853e7c4fac" />
+
+Category: Politics
+Headline (Input): Peace Treaty Signed! World Leaders Shake Hands After Intense 48-Hour Summit.
+<img width="1028" height="1028" alt="comic_strip (9)" src="https://github.com/user-attachments/assets/0cd0fe65-0309-40d8-8a08-2211f85889ad" />
+
+
 
 ## ✨ Features
 - **Zero Paid APIs**: Runs 100% on Hugging Face's free tier.
