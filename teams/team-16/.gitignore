@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit/Config
+.streamlit/
+.config/
+
+# Python Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Node packages
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Heavy Binaries & Zips
+cloudflared-linux-amd64
+archive (1).zip
+*.zip
+*.rar
+*.7z

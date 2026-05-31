@@ -1,0 +1,12 @@
+streamlit==1.36.0
+langchain==0.2.7
+langchain-google-genai==1.0.6
+langchain-groq==0.1.6
+langchain-community==0.2.7
+langchain-huggingface==0.0.3
+docling==1.17.0
+faiss-cpu==1.8.0
+sentence-transformers==3.0.1
+pypdf==4.2.0
+openai==1.35.10
+langchain-openai==0.1.14

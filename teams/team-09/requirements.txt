@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+langchain
+langchain-google-genai
+google-generativeai
+pandas
+python-dotenv
+ortools
